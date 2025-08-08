@@ -148,3 +148,63 @@ header h1 {
     color: #666;
     font-size: 1.05em;
 }
+
+.featured-list {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 32px;
+}
+
+.featured-review {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 180px;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0 0 0 0;
+    position: relative;
+}
+
+.featured-review:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 0;
+    bottom: -31px;
+    border-bottom: 1.5px solid #d1d1d1;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.featured-image {
+    background: #e0e0e0;
+    width: 180px;
+    height: 140px;
+    margin-right: 32px;
+    flex-shrink: 0;
+}
+
+.featured-info {
+    flex: 1;
+    padding: 0;
+}
+
+.featured-info h2 {
+    margin: 0 0 12px 0;
+    font-size: 1.3em;
+    color: #333;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.featured-info p {
+    margin: 0;
+    color: #666;
+    font-size: 1.05em;
+}
