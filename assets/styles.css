@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@400;700&display=swap');
+
 @font-face {
     font-family: 'Telegraf Ultra Bold';
     src: local('Telegraf Ultra Bold'), url('assets/TelegrafUltraBold.woff2') format('woff2');
@@ -5,16 +7,9 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Chicago';
-    src: local('Chicago'), url('assets/Chicago.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     margin: 0;
-    font-family: 'Chicago', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background: #fff;
 }
 
@@ -101,10 +96,11 @@ body {
 header h1 {
     margin-top: 0;
     font-size: 1.6em;
-    font-weight: 400;
+    font-weight: 900;
     color: #222;
     text-transform: none;
     letter-spacing: 0;
+    font-family: 'Telegraf Ultra Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .perfume-list {
@@ -134,13 +130,15 @@ header h1 {
     padding: 24px;
 }
 
-.perfume-info h2 {
+.perfume-info h2,
+.featured-info h2 {
     margin: 0 0 12px 0;
-    font-size: 1.1em;
+    font-size: 1.3em;
     color: #333;
-    font-weight: 400;
+    font-weight: bold;
     text-transform: none;
     letter-spacing: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .perfume-info p {
@@ -198,9 +196,10 @@ header h1 {
     margin: 0 0 12px 0;
     font-size: 1.3em;
     color: #333;
-    font-weight: 400;
+    font-weight: bold;
     text-transform: none;
     letter-spacing: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .featured-info p {
