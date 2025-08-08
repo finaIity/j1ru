@@ -1,5 +1,5 @@
 {
-  "name": "perfume-review-site",
+  "name": "j1ru",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -20,6 +20,7 @@
     "@types/react-dom": "^19",
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4",
+    "next": "15.4.6",
     "eslint": "^9",
     "eslint-config-next": "15.4.6",
     "@eslint/eslintrc": "^3"
